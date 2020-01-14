@@ -86,7 +86,7 @@ var (
 	machineID = readMachineID()
 
 	// pid stores the current process id
-	pid = os.Getpid()
+	pid = getPid()
 
 	nilID ID
 
